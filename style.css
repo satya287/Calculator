@@ -1,0 +1,81 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive;
+}
+
+body {
+    background:linear-gradient(rgb(13, 27, 32) , rgb(62, 85, 131)) ;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.frame {
+    height: 690px;
+    width: 460px;
+    border-radius: 10px;
+    background-color: #3a4452;
+    padding: 15px;
+}
+.heading {
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    color: rgb(148, 198, 210);
+}
+
+#display {
+    height: 90px;
+    width: 100%;
+    background: transparent;
+    box-shadow:inset -8px -8px 15px rgb(255, 255, 255,), 5px 5px 15px rgb(255, 255, 255,);
+    font-size: 30px;
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: right;
+}
+
+.buttons-group {
+    display: flex;
+    justify-content: space-around;
+}
+
+.button {
+    width: 85px;
+    height: 85px;
+    font-size: 26px;
+    background-color: rgb(145, 131, 165);
+    border: none;
+    outline: none;
+    box-shadow: 5px 5px 10px rgb(81, 76, 118), -5px -5px 10px rgb(3, 2, 6);
+    margin-bottom: 18px;
+}
+
+.button:active {
+    box-shadow:inset 1px 1px 2px rgb(65, 81, 105), -1px -1px 2px rgb(44, 38, 58);
+}
+
+.button:hover {
+    background-color: rgb(109, 78, 135);
+    color: white;
+    cursor: pointer;
+}
+.eqal
+{
+    width: 190px;
+    font-size: 26px;
+    background-color:rgb(145, 131, 165) ;
+    border: none;
+    outline: none;
+    box-shadow: 5px 5px 10px rgb(81, 76, 118), -5px -5px 10px rgb(3, 2, 6);;
+    margin-bottom: 18px;
+}
+.eqal:hover
+{
+    background-color: rgb(109, 78, 135);
+    color: white;
+    cursor: pointer;   
+}
